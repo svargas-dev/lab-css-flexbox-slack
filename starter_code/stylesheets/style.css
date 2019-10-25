@@ -1,3 +1,4 @@
+
 /*
 background-grey: #F4F3F4;
 button-purple: #192592
@@ -5,3 +6,82 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Larsseit", "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #2C303F;
+    width: 60%;
+    align-self: flex-start;
+    line-height: 1em;
+}
+
+p {
+    color: #5b5e6d;
+    line-height: 1.5em;
+    font-family: ;
+}
+
+nav {
+    width: 100%;
+    height: 4.4em;
+    display: flex;
+    border-top: 1px solid #F4F3F4;
+    border-bottom: 1px solid #F4F3F4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 2em;
+    height: 70%;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header img {
+    height: auto;
+    width: 100%;
+    order: 1;
+    padding-top: 1.5em;
+    /* margin-left: 2em; */
+}
+
+.button-blue {
+    width: 100%;
+    height: 4em;
+    background-color:#192592;
+    border: 0.3em solid #192592;
+    border-radius: 0.3em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+/* Example - applies styles from 600px onwards*/
+@media (min-width: 600px) {
+    body {
+      /* background: green; */
+    }
+  }
