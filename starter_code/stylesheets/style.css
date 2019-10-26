@@ -211,7 +211,7 @@ footer > div {
 
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer > div > ul {
@@ -221,7 +221,7 @@ footer > div > ul {
   line-height: 2em;
   font-size: 0.8em;
   padding: 0;
-  margin: 0;
+  margin: 0 3% 0 3%;
 }
 
 .footer-heading {
